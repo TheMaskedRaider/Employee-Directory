@@ -1,23 +1,17 @@
+import React from "react";
+import API from "./utils/API";
+import "../src/App.css"
 import logo from './logo.svg';
-import './App.css';
+import Jumbotron from "./components/jumbotron/index.js";
+import Searchbar from "./components/searchbar/index.js";
+import Table from "./components/table/index.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Jumbotron/>
+      <Searchbar/>
+      <Table/>
     </div>
   );
 }
