@@ -1,12 +1,21 @@
 import React from "react";
 
-function Searchbar(){
+function Searchbar(props){
     return(
-        <form>
-    <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <form className="search">
+    <div className="form-group search-widget">
+    <input
+          value={props.search}
+          onChange={props.handleInputChange}
+          name="employee"
+          type="text"
+          className="form-control"
+          placeholder="Search for employees."
+          id="employee"
+        />
+                <button type="submit" onClick={props.handleFormSubmit} className="btn btn-success">
+          Search
+        </button>
     </div>
         </form>
     )
