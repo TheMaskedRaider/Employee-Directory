@@ -5,8 +5,8 @@ function Jumbotron(){
     return(
         <div className='jumbotron jumbotron-fluid'>
             <div className="container">
-                <h1 className='display-4'>Helloooo there</h1>
-                <p>Serach for a dude!</p>
+                <h1 className='display-4'>Employee Directory</h1>
+                <p>Search for an employee!</p>
             </div>
         </div>
     )
