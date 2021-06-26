@@ -68,8 +68,6 @@ sortToggle= () => {
                                     <td >{item.email}</td>
                                     <td>{item.dob.date}</td>
                                 </tr>
-
-
                             )
                         }
                     </tbody>

@@ -1,7 +1,7 @@
 {
+  "homepage": "https://TheMaskedRaider.github.io/Employee-Directory/",
   "name": "employeedirapp",
   "version": "0.1.0",
-  "homepage": "https://themaskedraider.github.io/Employee-Directory/",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
